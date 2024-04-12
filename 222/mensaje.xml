@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje
+xmlns:xs ="http://www.w3.org/2001/XMLSchema-instance"
+    xs:noNamespaceSchemaLocation="mensajes.xsd">
+    <!-- elemento raiz r-->
+    <de>Anna</de>
+    <para>Rocío</para>
+    <mensaje>Ya estoy en la biblioteca</mensaje>
+</mensaje>

@@ -1,0 +1,10 @@
+<!ELEMENT Curriculum (Nombre, Apellidos, Año_de_nacimiento, Residencia, Datos_De_contacto, descripcion, competencia, Formacion_academica,Experiencia_profesiona)>
+<!ELEMENT Nombre (#PCDATA)>    
+<!ELEMENT Apellidos (#PCDATA)>    
+<!ELEMENT Año_de_nacimiento (#PCDATA)>    
+<!ELEMENT Residencia (#PCDATA)>    
+<!ELEMENT Datos_De_contacto (#PCDATA)>    
+<!ELEMENT descripcion (#PCDATA)>    
+<!ELEMENT competencia (#PCDATA)>    
+<!ELEMENT Formacion_academica (#PCDATA)>    
+<!ELEMENT Experiencia_profesiona (#PCDATA)>    

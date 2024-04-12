@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type ="text/css" href="style.css"?>
+<Curriculum>
+    <Datos_personales>
+        <Nombre>Carlos Andre</Nombre>   
+        <Apellidos>
+            <Apellido1>Galvez</Apellido1>
+            <Apellido2>Castro</Apellido2>
+        </Apellidos>
+        <Año_de_nacimiento>07/04/2005</Año_de_nacimiento>
+    </Datos_personales>
+        <residencia>
+            <ciudad>
+                Madrid
+            </ciudad>
+            <pais>
+                España
+            </pais>
+        </residencia> 
+            <Datos_contacto>
+                <telfefono>xxx-xx-xx-xx</telfefono>
+                <email>xxxx@gmail.com</email>
+                <linked>Alpaca_123</linked>
+            </Datos_contacto>
+            <descripcion>
+                Non magna laboris laboris adipisicing excepteur magna.
+                Pariatur consectetur id consectetur exercitation eiusmod quis ea Lorem.
+            </descripcion>
+            <competencia>
+                <nombre>competencia nombre</nombre>
+                <nivel> Nivel #</nivel>
+            </competencia>
+            <Formacion>
+                <Titulo>Tecnico informatico</Titulo>
+                <centro_formacion>Rey fernando</centro_formacion>
+                <año_titulo>2025</año_titulo>
+            </Formacion>
+            <Exp_profesional>
+                <puesto>Administrador de ciberseguridad</puesto>
+                <empresa>Hermanos Pollo</empresa>
+                <año>
+                    <inicio>xx/xx/xxxx</inicio>
+                    <finalizacion>xx/xx/xxxx</finalizacion>
+                </año>
+            </Exp_profesional> 
+</Curriculum>

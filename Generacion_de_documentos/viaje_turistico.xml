@@ -1,0 +1,66 @@
+<viaje>
+    <clientes>
+        <cliente>
+            <Nombre>Juan</Nombre>
+            <apellido>Fernandez</apellido>
+            <fecha>
+                <inicio>23/02/2023</inicio>
+                <fin>2/02/2023</fin>
+            </fecha>
+        </cliente>
+        <cliente>
+            <Nombre>Maria</Nombre>
+            <apellido>Guadalupe</apellido>
+            <fecha>
+                <inicio>23/02/2023</inicio>
+                <fin>2/02/2023</fin>
+            </fecha>
+                <origen>
+                    Barcelona-ESP
+                </origen>
+                    <destino>
+                        <ciudad>
+                            Madrid-ESP
+                        </ciudad>
+                        <Hotel>
+                            Hotel de Cry
+                        </Hotel>
+                        <noches>
+                            7
+                        </noches>
+                    </destino>     
+        </cliente>
+    </clientes>
+    <fecha>
+        <inicio>23/02/2023</inicio>
+        <fin>2/02/2023</fin>
+    </fecha>
+        <origen>
+            Barcelona-ESP
+        </origen>
+            <destino>
+                <ciudad>
+                    Madrid-ESP
+                </ciudad>
+                <Hotel>
+                    Hotel de Cry
+                </Hotel>
+                <noches>
+                    7
+                </noches>
+            </destino>      
+            <origen>
+                Barcelona-ESP
+            </origen>
+                <destino>
+                    <ciudad>
+                        Madrid-ESP
+                    </ciudad>
+                    <Hotel>
+                        Hotel de Cry
+                    </Hotel>
+                    <noches>
+                        7
+                    </noches>
+                </destino>          
+</viaje>

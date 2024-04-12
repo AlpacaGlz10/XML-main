@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- Esto se pone asi siempre y es el elemento raíz-->
+    <xs:element name="mensaje"> <!-- elemento raiz de xml-->
+        <xs:complexType> 
+            <xs:sequence>
+            <!-- concretamente de la secuencia de elementos: de, para, mensaje-->
+                <xs:element name ="de" type="xs:string"/><!--cada elemento, con su nombre y su tipo-->
+                <xs:element name ="para" type ="xs:string"/>
+                <xs:element name ="mensaje" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+        
+    </xs:element>
+</xs:schema>

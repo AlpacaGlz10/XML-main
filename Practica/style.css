@@ -1,0 +1,128 @@
+Curriculum{
+    max-width: 600px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+Datos_personales{
+    border: 5px solid wheat;
+    border-radius: 5px; 
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: auto;
+    margin: 10px;
+}
+Nombre{
+    border: 5px solid seagreen;
+    border-radius: 15px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+Apellidos {
+    border: 5px solid salmon;
+    border-radius: 15px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+Año_de_nacimiento {
+    border: 5px solid skyblue;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;  
+    width: 250px;
+    height: auto;
+}
+residencia{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin: 10px;
+    border: 5px solid slateblue;
+    width: 50%;
+    
+}
+ciudad{
+    border: 5px solid aquamarine;
+    border-radius: 15px;
+    display: flex;
+    margin: 10px;
+    width: 50%;
+    padding-left: 10px;
+}
+pais{
+    border: 5px sandybrown solid;
+    border-radius: 15px;
+    display: flex;
+    margin: 10px;
+    width: 50%;
+    padding-left: 10px;
+}
+Datos_contacto{
+    border-radius: 15px;
+    border: 5px crimson solid;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin: 10px;
+    margin-left: 50%;
+}
+telfefono{
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px burlywood solid;
+    margin: 10px;
+}
+email{
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px violet solid;
+    margin: 10px;
+}
+linked{
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px gold solid;
+    margin: 10px;
+}
+descripcion{
+    border-radius: 15px;
+    border: 5px lightblue solid;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+competencia{
+    border-radius: 15px;
+    border: 5px solid seagreen;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+nombre{
+    border-radius: 15px;
+    border: 5px solid brown;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+nivel{
+    border-radius: 15px;
+    border: 5px solid slateblue;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+Exp_profesional{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 5px solid slateblue;
+}
