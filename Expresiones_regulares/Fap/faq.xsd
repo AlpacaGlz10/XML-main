@@ -7,32 +7,34 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="titulo" type="xs:string"/>
-                            <xs:element name="autor" type="xs:string" minOccurs="0"/>
+                            <xs:element name="autor" type="xs:string"/>
                             <xs:element name="email" type="xs:string" minOccurs="0"/>
-
-                            <xs:element name="version"  minOccurs="0">
-                                <xs:simpleType >
+                            <xs:element name="version" minOccurs="0">
+                                <xs:simpleType>
                                     <xs:restriction base="xs:string">
                                         <xs:pattern value="\d+\.\d+"/>
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
-
-                            <xs:element name="fecha" type="xs:date" minOccurs="0" />
-                            <xs:element name="part" minOccurs="1" maxOccurs="unbounded">
+                            <xs:element name="fecha" type="xs:date" minOccurs="0"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="part" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="q" minOccurs="1" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="q" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-                                        <xs:element name="qtex" type="xs:string"/>
+                                        <xs:element name="qtext" type="xs:string"/>
                                         <xs:element name="a" type="xs:string"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
-        </xs:complexType>
+        </xs:complexType>      
     </xs:element>
 </xs:schema>
