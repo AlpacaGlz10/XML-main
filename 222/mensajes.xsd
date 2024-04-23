@@ -10,6 +10,6 @@
                 <xs:element name ="mensaje" type="xs:string"/>
             </xs:sequence>
         </xs:complexType>
-        
+        xs:complex
     </xs:element>
 </xs:schema>
