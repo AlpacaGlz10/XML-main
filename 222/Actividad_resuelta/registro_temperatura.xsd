@@ -18,17 +18,83 @@
 </xs:simpleType>
 
 <!-- Y AQUÍ EMPIEZA YA EL ELEMENTO RAÍZ-->
-    <xs:element name="registro_temperatura">
-        <xs:complexType>
-            <xs:sequence>
-            
-
-            
                 <!--la fecha de registro debe ser una fecha válida-->
                 <!--temperatura mínima >=-50 -->
                 <!--temperatura máxima <= 50-->
                 <!-- el número de incidencias no tiene límite-->
+    <xs:element name="registro_temperatura">
+        <xs:complexType>
+            <xs:sequence>
+                 <xs:complexType>
+
+        <xs:sequence>
+            <xs:element name="provincia" type="xs:string"/>
+            <xs:element name="fecha" type="xs:date"/>
+            <xs:element name="temperatura_minima">
+
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="-50"/>
+                    </xs:restriction>
+                </xs:simpleType>
+
+            </xs:element>
+
+            <xs:element name="temperatura_maxima">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:maxInclusive value="50"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element> 
+
+            <xs:element name="incidencias">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="incidencia" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:attribute name="nombre" type="nombre_incidencia"/>
+                                <xs:attribute name="severidad" type="severidad"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+
+        </xs:sequence>
+    </xs:complexType>   
+        <xs:sequence>
+            <xs:element name="provincia" type="xs:string"/>
+            <xs:element name="fecha" type="xs:date"/>
+            <xs:element name="temperatura_minima">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="-50"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="temperatura_maxima">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:maxInclusive value="50"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>    
+            <xs:element name="incidencias">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="incidencia" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:attribute name="nombre" type="nombre_incidencia"/>
+                                <xs:attribute name="severidad" type="severidad"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+                </xs:element>
+        </xs:sequence>
+    </xs:complexType>    
             </xs:sequence>
-        </xs:complexType>
     </xs:element>
 </xs:schema>
